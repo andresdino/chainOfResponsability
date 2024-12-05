@@ -1,7 +1,7 @@
 {
     "transactionId": "XXXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX",
     "inboundRoute": [{
-        "code": "TRANSFORMMMM",
+        "code": "TRANSFORM",
         "processingStage": false,
         "config": {
             "transformationId": "XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX"
