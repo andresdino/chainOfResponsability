@@ -1,15 +1,48 @@
 package com.example.chainOfResponsability.dto;
 
-import lombok.Data;
+import lombok.*;
 
-@Data
+
 public class InboundRoute {
     private String code;
     private boolean processingStage;
+
+    public String getCode() {
+        return code;
+    }
+
+    public void setCode(String code) {
+        this.code = code;
+    }
+
+    public boolean isProcessingStage() {
+        return processingStage;
+    }
+
+    public void setProcessingStage(boolean processingStage) {
+        this.processingStage = processingStage;
+    }
+
+    public Config getConfig() {
+        return config;
+    }
+
+    public void setConfig(Config config) {
+        this.config = config;
+    }
+
     private Config config;
 }
 
-@Data
+
 class Config {
     private String transformationId;
+
+    public String getTransformationId() {
+        return transformationId;
+    }
+
+    public void setTransformationId(String transformationId) {
+        this.transformationId = transformationId;
+    }
 }

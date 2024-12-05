@@ -1,0 +1,36 @@
+{
+    "transactionId": "XXXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX",
+    "inboundRoute": [{
+        "code": "TRANSFORMMMM",
+        "processingStage": false,
+        "config": {
+            "transformationId": "XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX"
+        }
+    }
+    ],
+    "data": {
+        "fileSize": 1266,
+        "bucketChannel": "edi-test-cenb2b-channels-bucket",
+        "bucketService": "edi-test-cenb2b-reportpayment-service-bucket",
+        "pathFile": "cenb2b/sftp/Emp_emi_1/REMADV/TEST/RFC_0000011111/0000011111_REMADV_1/IN/REMADV_0009052025.txt",
+        "receiveTime": "2024-06-19T16:27:46.478Z",
+        "country": "MX",
+        "transactionId": "95ec6d2b-5592-47a6-a6d6-f674eb7220a7",
+        "fileName": "REMADV_0009052025.txt",
+        "busFlow": "PLANO_CARVAJAL",
+        "service": "REMADV",
+        "channel": "sftp",
+        "company": "cc07bed0-470c-418c-87a4-f3e393277cdb",
+        "account": "0000011111_REMADV_1",
+        "documentStorageId": "/edi-test-cenb2b-reportpayment-service-bucket/31f6cef9ae224409a84e101aaf2566b2"
+    },
+    "result": {
+        "status": "SUCCESS",
+        "documents": [{
+            "type": "PLANO_CARVAJAL",
+            "filename": "REMADV_0009052025.txt",
+            "prefix": "/edi-test-cenb2b-reportpayment-service-bucket/31f6cef9ae224409a84e101aaf2566b2"
+        }
+        ]
+    }
+}
